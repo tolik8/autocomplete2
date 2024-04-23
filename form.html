@@ -11,7 +11,20 @@
 <form method="post" action="test.php">
 <label for="find">Enter ss, java or sql for example</label>
 <input type="text" name="find" id="find" class="autocomplete_input" autofocus>
-<div id="input-container"></div>
+<div id="input-container">
+    <div class="name-block">
+        <input type="text" name="pib[1]" class="dynamic-input" value="Ajax" readonly="">
+        <img class="delete-button" src="/img/del.png">
+    </div>
+    <div class="name-block">
+        <input type="text" name="pib[21]" class="dynamic-input" value="Java" readonly="">
+        <img class="delete-button" src="/img/del.png">
+    </div>
+    <div class="name-block">
+        <input type="text" name="pib[22]" class="dynamic-input" value="JavaScript" readonly="">
+        <img class="delete-button" src="/img/del.png">
+    </div>
+</div>
 <input type="submit" value="Зберегти">
 </form>
 
